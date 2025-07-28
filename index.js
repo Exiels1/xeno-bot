@@ -36,7 +36,7 @@ app.listen(PORT, () => {
   console.log("🌐 QR Page: https://whatsapp-bot.exiels1.repl.co");
 });
 
-const groq = new Groq({ apiKey: "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" });
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 async function startSock() {
   const { state, saveCreds } = await useMultiFileAuthState("auth_info");
