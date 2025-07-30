@@ -9,7 +9,7 @@
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^6.7.18",
-    "axios": "^1.6.8",
+    "axios": "^1.11.0",
     "express": "^4.19.2",
     "fs": "0.0.1-security",
     "groq-sdk": "^0.3.0",
