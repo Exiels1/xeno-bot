@@ -1,14 +1,20 @@
 {
   "name": "whatsapp-bot",
   "version": "1.0.0",
-  "description": "Simple WhatsApp bot using Baileys",
+  "description": "Xeno WhatsApp AI Bot built by Exiels1",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@hapi/boom": "^10.0.0",
+    "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^6.7.18",
-    "pino": "^8.0.0"
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "fs": "0.0.1-security",
+    "groq-sdk": "^0.3.0",
+    "http": "0.0.1-security",
+    "pino": "^8.20.0",
+    "qrcode": "^1.5.3"
   }
 }
